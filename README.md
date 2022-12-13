@@ -50,7 +50,7 @@
 - 1 x Light sensor, κόστος περίπου 5 ευρώ
 - 1 x οθόνη LCD, παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit, κόστος περίπου 20 ευρώ
 - λοιπός εξοπλισμός, καλώδια, breadboard, jumper wires, crocodile cable clips, κόστος περίπου 5-10 ευρώ
-Συνολικό Κόστος: 90 ευρώ περίπου
+### Συνολικό Κόστος: 90 ευρώ περίπου
 
 ## Πηγές, Σχετικά Projects
 Γιαννοπούλου, Π. (2018). Προδιαγραφές φωτισμού για κτίρια πρωτοβάθμιας και δευτεροβάθμιας εκπαίδευσης σε Μεσογειακά κλίματα. Ελληνικό Ανοιχτό Πανεπιστήμιο. https://apothesis.eap.gr/handle/repo/40540 
@@ -63,19 +63,27 @@ https://industry-news.gr/energeiaki-apodotikotita-o-pyrinas-toy-exypnoy-ergostas
 
 Arduino with PIR Motion Sensor
 https://create.arduino.cc/projecthub/diyelectronicsprojects/arduino-with-pir-motion-sensor-fd540a 
+
 Arduino - Light Sensor
 https://arduinogetstarted.com/tutorials/arduino-light-sensor 
+
 Physical Computing with Python
 https://projects.raspberrypi.org/en/projects/physical-computing/0 
+
 Make it: code it - PIR movement alarm
 https://microbit.org/projects/make-it-code-it/pir-movement-alarm/
+
 Make it: code it - Light alarm movement alarm
 https://microbit.org/projects/make-it-code-it/light-alarm/ 
+
 Make it: code it - Door alarm
 https://microbit.org/projects/make-it-code-it/door-alarm/
+
 Make it: code it - Light Level
 https://makecode.microbit.org/reference/input/light-level
+
 Raspberry Pi Motion Sensor using a PIR Sensor
 https://pimylifeup.com/raspberry-pi-motion-sensor/ 
+
 How to Connect a Light Sensor to the Raspberry Pi
 https://howchoo.com/pi/raspberry-pi-light-sensor
