@@ -30,16 +30,52 @@
 
 Η παραπάνω διάταξη είναι δυνατό να υλοποιηθεί με την αξιοποίηση BBC:microbit ή εναλλακτικά Arduino UNO ή εναλλακτικά με Raspberry Pi zero W.
 
-Η υλοποίηση με τη χρήση BBC:microbit αποτελείται από:
-- 1 x BBC micro:bit V2 Board Go Bundle με 1 x PIR Passive Infrared Motion Sensor για την καταγραφή άσκοπης κατανάλωσης ενέργειας
-- 1 x BBC micro:bit V2 Board Go Bundle με οθόνη LCD για την προβολή των μετρήσεων
+## Λίστα προτεινόμενου εξοπλισμού
+### Υλοποίηση με BBC:microbit
+- 2 x BBC micro:bit V2 Board Go Bundle
+- 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m)
+- 1 x οθόνη LCD, για παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit
+### Εναλλακτική υλοποίηση με Arduino UNO
+- 2 x Arduino UNO
+- 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m)
+- 1 x Light Sensor
+- 1 x οθόνη LCD, για παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit
+### Εναλλακτική υλοποίηση με Raspberry Pi Zero 2 W
+- 1 x Raspberry Pi Zero 2 W for Pi hole kit 40 ευρώ (ανάλογα με τη διαθεσιμότητα)
+- 1 x Light Sensor, (παράδειγμα Ambient Light Sensor 0-200klx ή εναλλαντικά uxcell Photoresistor Sensor Module Light Intensity Detection Digital Switch)
 
-Η υλοποίηση με Arduino UNO αποτελείται από:
-- 1 x Arduino UNO με 1 x PIR Passive Infrared Motion Sensor για την καταγραφή άσκοπης κατανάλωσης ενέργειας και 1 x Light Sensor
-- 1 x Arduino UNO με οθόνη LCD για την προβολή των μετρήσεων
+## Ενδεικτικό κόστος
+- 2 x BBC micro:bit V2 Board Go Bundle η 2 x Arduino UNO, κόστος περίπου 50 ευρώ
+- 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m), κόστος περίπου 5 ευρώ
+- 1 x Light sensor, κόστος περίπου 5 ευρώ
+- 1 x οθόνη LCD, παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit, κόστος περίπου 20 ευρώ
+- λοιπός εξοπλισμός, καλώδια, breadboard, jumper wires, crocodile cable clips, κόστος περίπου 5-10 ευρώ
+Συνολικό Κόστος: 90 ευρώ περίπου
 
-Η υλοποίηση με Raspberry Pi Zero 2 W αποτελείται από:
-- 1 x Raspberry Pi Zero 2 W for Pi hole kit 40 
-- 1 x Light Intensity Detection Digital Sensor
+## Πηγές, Σχετικά Projects
+Γιαννοπούλου, Π. (2018). Προδιαγραφές φωτισμού για κτίρια πρωτοβάθμιας και δευτεροβάθμιας εκπαίδευσης σε Μεσογειακά κλίματα. Ελληνικό Ανοιχτό Πανεπιστήμιο. https://apothesis.eap.gr/handle/repo/40540 
 
-Στην εικόνα που ακολουθεί παρουσιάζεται η υλοποίηση με τη χρήση του BBC:microbit
+Παλιόκας, Ι (2008), Καλλιέργεια Ενεργειακής και Περιβαλλοντικής Συνείδησης µε τη χρήση Εκπαιδευτικών Βιντεοπαιχνιδιών, 4ο Συνέδριο ΠΕΕΚΠΕ.
+http://kpe-kastor-old.kas.sch.gr/peekpe4/proceedings/synedria4/paliokas.pdf
+
+Eνεργειακή Αποδοτικότητα: ο πυρήνας του «έξυπνου» εργοστασίου
+https://industry-news.gr/energeiaki-apodotikotita-o-pyrinas-toy-exypnoy-ergostasioy/ 
+
+Arduino with PIR Motion Sensor
+https://create.arduino.cc/projecthub/diyelectronicsprojects/arduino-with-pir-motion-sensor-fd540a 
+Arduino - Light Sensor
+https://arduinogetstarted.com/tutorials/arduino-light-sensor 
+Physical Computing with Python
+https://projects.raspberrypi.org/en/projects/physical-computing/0 
+Make it: code it - PIR movement alarm
+https://microbit.org/projects/make-it-code-it/pir-movement-alarm/
+Make it: code it - Light alarm movement alarm
+https://microbit.org/projects/make-it-code-it/light-alarm/ 
+Make it: code it - Door alarm
+https://microbit.org/projects/make-it-code-it/door-alarm/
+Make it: code it - Light Level
+https://makecode.microbit.org/reference/input/light-level
+Raspberry Pi Motion Sensor using a PIR Sensor
+https://pimylifeup.com/raspberry-pi-motion-sensor/ 
+How to Connect a Light Sensor to the Raspberry Pi
+https://howchoo.com/pi/raspberry-pi-light-sensor
