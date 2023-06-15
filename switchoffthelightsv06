@@ -1,0 +1,51 @@
+#include "thingProperties.h"  		  // Bιβλιοθήκη του arduino cloud
+#include "Adafruit_LTR329_LTR303.h"   // Βιβλιοθήκη του αισθητήρα φωτός
+#define pirPin 8 					  
+#define pirPin1 9 					
+
+Adafruit_LTR329 ltr = Adafruit_LTR329();
+
+int status1; 						// μεταβλητή καταγραφής κατάστασης του 1ου αισθητήρα κίνησης
+int status2; 						// μεταβλητή καταγραφής κατάστασης του 2ου αισθητήρα κίνησης
+uint16_t light_threshold = 10; 			// σταθερά για τη λειτουργία του αισθητήρα φωτός
+float timer = 0; 					// μεταβλητή καταγραφής του χρόνου άσκοπης κατανάλωσης ενέργειας
+void setup() {
+  Serial.begin(9600); 				// άνοιγμα σειριακής θύρας (9600 baud)
+  delay(1500);        
+  pinMode(8, INPUT); 				// ορισμός του Pin 8 ως εισόδου
+  pinMode(9, INPUT); 				// ορισμός του Pin 9 ως εισόδου
+
+  initProperties();
+
+  ArduinoCloud.begin(ArduinoIoTPreferredConnection); // εκκίνηση σύνδεσης με Arduino Cloud
+
+  setDebugMessageLevel(2);
+  ArduinoCloud.printDebugInfo(); 	// ενημέρωση για τυχών προβλήματα
+  if ( ! ltr.begin() ) {
+    Serial.println("Couldn't find LTR sensor!");
+    while (1) delay(10);
+  }? 								// εμφάνιση σχετικού μυνήματος σε περίπτωση αδυναμίας σύνδεσης
+}
+
+void loop() {
+  ArduinoCloud.update(); 							// ενημέρωση τιμών στο Arduino Cloud
+  
+  uint16_t LIGHT_BRIGHTNESS, infrared; 				// δημιουργία μεταβλητών καταγραφής φωτεινότητας
+  
+  ltr.readBothChannels(LIGHT_BRIGHTNESS, infrared); // ανάγνωση τιμών αισθητήρα φωτός και αποθήκευση τιμής 
+  
+  PIR_1_STATUS = digitalRead(8); 					// αποθήκευση κατάστασης pin8 στην PIR_1_STATUS
+  PIR_2_STATUS = digitalRead(9); 					// αποθήκευση κατάστασης pin9 στην PIR_1_STATUS
+  
+  while (PIR_1_STATUS == LOW and PIR_2_STATUS == LOW and LIGHT_BRIGHTNESS > light_threshold)
+  { 													// εκτέλεση εντολών που περικλείονται στην while για όσο
+														// δεν καταγράφεται κίνηση ΚΑΙ φωτεινότητα > light_threshold
+	timer = millis(); 									// ορισμός τιμής μεταβλητής timer σε millis()
+    ltr.readBothChannels(LIGHT_BRIGHTNESS, infrared);  	// ανάγνωση τιμής από αισθητήρα φωτός και αποθήκευση 
+    PIR_1_STATUS = digitalRead(8); 						// ορισμός τιμής PIR_1_STATUS στην κατάσταση του pin 8
+    PIR_2_STATUS = digitalRead(9); 						// ορισμός τιμής PIR_2_STATUS στην κατάσταση του pin 9
+    Serial.println(TIME); 								// εμφάνιση τιμής μεταβλητής TIME
+    TIME = TIME + (millis() - timer); 					// καταγραφή χρόνου στην μεταβλητή ΤΙΜΕ
+    ArduinoCloud.update(); 								// ενημέρωση τιμών στο Arduino Cloud
+  }
+}
