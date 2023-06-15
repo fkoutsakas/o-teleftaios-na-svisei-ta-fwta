@@ -31,12 +31,13 @@
 
 Η παραπάνω διάταξη είναι δυνατό να υλοποιηθεί με με την αξιοποίηση ενος εκ των τριών πιό διαδεμένων πλατφορμών ανοιχτής αρχιτεκτονικής (BBC:microbit, Arduino UNO, Raspberry Pi zero W).
 
-Η εικόνα που ακολουθεί παρουσιάζει την υλοποίηση με τη χρήση του BBC:microbit, Παρόμοια είναι και η υλοποίηση με την αξιοποίηση του Arduino UNO ενώ η υλοποίηση με την αξιοποίηση Raspberry Pi Zero απαιτεί μόνο ένα RP.
+Η εικόνα που ακολουθεί παρουσιάζει την υλοποίηση με τη χρήση του BBC:microbit
 
 ![act_for_energy](https://user-images.githubusercontent.com/5950820/207369164-30138af3-a2be-4851-b671-9157bb49deca.png)
 
-![shut-the-lights-architecture-1-1024x567](https://github.com/fkoutsakas/o-teleftaios-na-svisei-ta-fwta/assets/5950820/9008df74-72cd-4f81-ac22-bcff658717a2)
+Παρόμοιας λογικής είναι και η υλοποίηση με την αξιοποίηση του Arduino (nano IoT ή UNO) ή Raspberry Pi.
 
+![shut-the-lights-architecture-1-1024x567](https://github.com/fkoutsakas/o-teleftaios-na-svisei-ta-fwta/assets/5950820/9008df74-72cd-4f81-ac22-bcff658717a2)
 
 
 ## Λίστα προτεινόμενου εξοπλισμού
@@ -52,11 +53,6 @@
 - 1 x Light Sensor, για παράδειγμα TEMT6000 Light Sensor
 - 1 x οθόνη LCD, για παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit
 
-### Εναλλακτική υλοποίηση με Raspberry Pi Zero 2 W
-- 1 x Raspberry Pi Zero 2 W for Pi hole kit 40 ευρώ
-- 1 x Light Sensor, (παράδειγμα Ambient Light Sensor 0-200klx ή εναλλαντικά uxcell Photoresistor Sensor Module Light Intensity Detection Digital Switch)
-- 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m)
-
 ## Ενδεικτικό κόστος
 - 2 x BBC micro:bit V2 Board Go Bundle 2 x 22,50 = 50 ευρώ
 - 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m), κόστος 5 ευρώ
@@ -65,12 +61,6 @@
 - λοιπός εξοπλισμός, καλώδια, breadboard, jumper wires, crocodile cable clips, κόστος περίπου 5-10 ευρώ
 
 ### Συνολικό Κόστος: 90 ευρώ περίπου
-
-Το κόστος των εναλλακτικών υλοποιήσεων είναι παρόμοιο
-
-## Σχόλια, Προτάσεις
-Τα τελευταία δύο χρόνια έχουν παρατηρηθεί σημαντικές ελλείψεις στην αγορά εξαρτημάτων και εξοπλισμού. Αυτός ήταν και ο λόγος που μας έκανε να διερευνήσουμε τη δυνατότητα υλοποίησης της διάταξης του project μας αξιοποιώντας  οποιαδήποτε από τις τρεις πιό διαδεδομένων πλατφόρμες ανοιχτής αρχιτεκτονικής (BBC:microbit, Arduino UNO, Raspberry Pi zero W).
-Δεδομένου ότι το κόστος είναι περίπου το ίδιο, η τελική επιλογή θα γίνει πλατφόρμας υλοποίησης θα γίνει με βάση τη διαθεσιμότητα και το χαμηλότερο δυνατό κόστος την στιγμή προμύθειας του εξοπλισμού.
 
 ## Διάχυση
 15ο Μαθητικό Συνέδριο Πληροφορικής Κεντρικής Μακεδονίας
