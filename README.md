@@ -53,23 +53,35 @@
 
 
 ## Διάχυση
-15ο Μαθητικό Συνέδριο Πληροφορικής Κεντρικής Μακεδονίας, Παρουσίαση εισήγησης με τίτλο "Ο τελευταίος να σβήσει τα φώτα»: οι ανοιχτές τεχνολογίες στην υπηρεσία της εξοικονόμησης ενέργειας", Απρίλιος 2023. Εισήγηση ΕΔΩ (https://docs.google.com/document/d/1xauGRiTvHmHac4riz8gacWah_GG8yp0d/edit), Παρουσίαση ΕΔΩ (https://docs.google.com/presentation/d/1bTY03eYpxlBIh2JtCrS1X23UhkzbIjs-/edit#slide=id.p1)
+15ο Μαθητικό Συνέδριο Πληροφορικής Κεντρικής Μακεδονίας, Παρουσίαση εισήγησης με τίτλο "Ο τελευταίος να σβήσει τα φώτα»: οι ανοιχτές τεχνολογίες στην υπηρεσία της εξοικονόμησης ενέργειας", Απρίλιος 2023. Εισήγηση [ΕΔΩ](https://docs.google.com/document/d/1xauGRiTvHmHac4riz8gacWah_GG8yp0d/edit), Παρουσίαση [ΕΔΩ](https://docs.google.com/presentation/d/1bTY03eYpxlBIh2JtCrS1X23UhkzbIjs-/edit#slide=id.p1)
 
-12ο Μαθητικό Φεστιβάλ Ψηφιακής Δημιουργίας, Παρουσίαση με τίτλο "Ο τελευταίος να σβήσει τα φώτα»: οι ανοιχτές τεχνολογίες στην υπηρεσία της εξοικονόμησης ενέργειας", Μάιος 2023, Περισσότερα ΕΔΩ (https://pspth.edu.gr/symmetochi-sto-12o-mathitiko-festival-psifiakis-dimiourgias/)
+12ο Μαθητικό Φεστιβάλ Ψηφιακής Δημιουργίας, Παρουσίαση με τίτλο "Ο τελευταίος να σβήσει τα φώτα»: οι ανοιχτές τεχνολογίες στην υπηρεσία της εξοικονόμησης ενέργειας", Μάιος 2023, Περισσότερα [ΕΔΩ](https://pspth.edu.gr/symmetochi-sto-12o-mathitiko-festival-psifiakis-dimiourgias/)
 
 Ημερίδα διάχευσης ομίλων, καινοτόμων δράσεων και εκπαιδευτικών προγράμματων του Πειραματικού Σχολείο του Πανεπιστημίου Θεσσαλονίκης, Μάιος 2023
 
 ## Πηγές, Σχετικά Projects
 Arduino with PIR Motion Sensor, Ανακτήθηκε από https://create.arduino.cc/projecthub/diyelectronicsprojects/arduino-with-pir-motion-sensor-fd540a 
+
 Arduino - Light Sensor, Ανακτήθηκε από https://arduinogetstarted.com/tutorials/arduino-light-sensor 
+
 Arduino (2023), Arduino Cloud, Ανακτήθηκε από https://docs.arduino.cc/arduino-cloud/ 
+
 Bellia, L., Pedace, A., Barbato, G. (2013). Lighting in educational environments: An example of a complete analysis of the effects of daylight and electric light on occupants, Building and Environment, Volume 68, Pages 50-65, ISSN 0360-1323, https://doi.org/10.1016/j.buildenv.2013.04.005 
+
 Craig, C.A., Allen, M.W. (2015). The impact of curriculum-based learning on environmental literacy and energy consumption with implications for policy. Util. Policy, 35, 41–49. 
+
 De Waters, J.E., Powers, S.E. (2011). Energy literacy of secondary students in New York State (USA): A measure of knowledge, affect, and behavior. Energy Policy, 39, 1699–1710.
+
 Kemp-Hesterman, A., Glick, S., Eileen Cross, J. (2014). Reducing electrical energy consumption through behavior changes. J. Facil. Manag., 12, 4–17.
+
 Pereira, L. D., Raimondo, D., Corgnati, S. P., Silva, M., G., (2014), Energy consumption in schools - A review paper, Renewable and Sustainable Energy Reviews, Volume 40, 2014, Pages 911-922, ISSN 1364-0321, https://doi.org/10.1016/j.rser.2014.08.010. 
+
 TEMT6000 Ambient Light Sensor & Arduino – Measure Illuminance & Light Intensity, Ανακτήθηκε από https://how2electronics.com/temt6000-ambient-light-sensor-arduino-measure-light-intensity/ 
+
 Γιαννοπούλου, Π. (2018). Προδιαγραφές φωτισμού για κτίρια πρωτοβάθμιας και δευτεροβάθμιας εκπαίδευσης σε Μεσογειακά κλίματα. Ελληνικό Ανοιχτό Πανεπιστήμιο. https://apothesis.eap.gr/handle/repo/40540  
+
 Eνεργειακή Αποδοτικότητα: ο πυρήνας του «έξυπνου» εργοστασίου, Ανακτήθηκε από  https://industry-news.gr/energeiaki-apodotikotita-o-pyrinas-toy-exypnoy-ergostasioy/    
+
 Παλιόκας, Ι (2008), Καλλιέργεια Ενεργειακής και Περιβαλλοντικής Συνείδησης µε τη χρήση Εκπαιδευτικών Βιντεοπαιχνιδιών, 4ο Συνέδριο ΠΕΕΚΠΕ,  http://kpe-kastor-old.kas.sch.gr/peekpe4/proceedings/synedria4/paliokas.pdf
+
 Πανελλήνιος Διαγωνισμός Ανοιχτών Τεχνολογιών στην Εκπαίδευση, (2023). 5ος Πανελλήνιος Διαγωνισμός Ανοιχτών Τεχνολογιών στην Εκπαίδευση, https://openedtech.ellak.gr/ 
