@@ -27,84 +27,49 @@
 
 Πόσο ταιριάζουν όμως τα συστήματα αυτά σε μία σχολική αίθουσα και πόσος χρόνος θα χρειαστεί για την απόσβεση του κόστους τοποθέτησης τους σε ένα σχολικό κτίριο;
 
-Στα παραπάνω ερωτήματα επιχειρεί να απαντήσει η διάταξη που προτείνουμε, η οποία αξιοποιώντας αισθητήρες κίνησης και έντασης φωτός σε συνεργασία με ένα μικρο-ελεγκτή (BBC:microbit ή Arduino UNO ή Raspberry Pi zero W) καταγράφει κατά τη διάρκεια ενός εικοσιτετραώρου τον χρόνο που παραμένουν ασκόπως αναμμένα τα φώτα σε μία σχολική αίθουσα. Θεωρούμε ότι τα φώτα είναι ασκόπως αναμμένα (α) όταν δεν υπάρχει κανείς στην αίθουσα (β) όταν ο φυσικός φωτισμός είναι επαρκής.
+Στα παραπάνω ερωτήματα επιχειρεί να απαντήσει η διάταξη που προτείνουμε, η οποία αξιοποιώντας αισθητήρες κίνησης και έντασης φωτός σε συνεργασία με ένα μικρο-ελεγκτή (BBC:microbit ή Arduino ή Raspberry Pi) καταγράφει κατά τη διάρκεια ενός εικοσιτετραώρου τον χρόνο που παραμένουν ασκόπως αναμμένα τα φώτα σε μία σχολική αίθουσα. Θεωρούμε ότι τα φώτα είναι ασκόπως αναμμένα (α) όταν δεν υπάρχει κανείς στην αίθουσα (β) όταν ο φυσικός φωτισμός είναι επαρκής.
 
-Η παραπάνω διάταξη είναι δυνατό να υλοποιηθεί με με την αξιοποίηση ενος εκ των τριών πιό διαδεμένων πλατφορμών ανοιχτής αρχιτεκτονικής (BBC:microbit, Arduino UNO, Raspberry Pi zero W).
 
-Η εικόνα που ακολουθεί παρουσιάζει την υλοποίηση με τη χρήση του BBC:microbit
+## Λίστα προτεινόμενου εξοπλισμού
 
-![act_for_energy](https://user-images.githubusercontent.com/5950820/207369164-30138af3-a2be-4851-b671-9157bb49deca.png)
+### Υλοποίηση με Arduino nano 33 IoT
 
-Παρόμοιας λογικής είναι και η υλοποίηση με την αξιοποίηση του Arduino (nano IoT ή UNO) ή Raspberry Pi.
+Για τις ανάγκες του εκπαιδευτικού προγράμματος αξιοποιήθηκαν αποκλειστικά χαμηλού κόστους αγοράς/συντήρησης, απλές στην εγκατάσταση και χρήση τεχνολογίες ανοιχτής αρχιτεκτονικής. Ειδικότερα, η πρόταση / διάταξη μας για την καταγραφή της άσκοπα καταναλισκόμενης ενέργειας βασίζεται στον παρακάτω εξοπλισμό ανοιχτής αρχιτεκτονικής:
+- έναν μικροελεγκτή Arduino Nano 33 IoT with headers (ενδεικτικό κόστος 30€)
+- ένα αισθητήρα φωτός Adafruit LTR-329 (ενδεικτικό κόστος 6€)
+- δύο αισθητήρες ανίχνευσης κίνησης PIR HC-SR502 (ενδεικτικό κόστος 6€)
+- εξαρτήματα συνδεσμολογίας και συναρμολόγησης, ενδεικτικά Breadboard, Alligator Test Leads ή/και Jumper Wires, βάσεις στήριξης των αισθητήρων, κλπ (ενδεικτικό κόστος 10€)
+Π
+ροαιρετικά, στην περίπτωση που αυτό κρίνεται απαραίτητα από τις ιδιαίτερες συνθήκες της εκάστοτε υλοποίησης, είναι δυνατόν να αξιοποιηθεί και ο παρακάτω εξοπλισμός:
+- μία LCD οθόνη μικρού μεγέθους, ενδεικτικά Fermion 1.8" 128x160 IPS (ενδεικτικό κόστος 10€)
+- βάσεις στήριξης αισθητήρα ανίχνευσης κίνησης και φωτός (ενδεικτικό κόστος 2€)
+
+Το κόστος του απαραίτητου εξοπλισμού ανέρχεται περίπου στα 50€, ενώ το κόστος του επιπλέον (προαιρετικού) εξοπλισμού ανέρχεται περίπου στα 13€.
+
+Για τις ανάγκες του έργου μας επιλέξαμε να αξιοποιήσουμε τον Arduino (nano 33 IoT).
 
 ![shut-the-lights-architecture-1-1024x567](https://github.com/fkoutsakas/o-teleftaios-na-svisei-ta-fwta/assets/5950820/9008df74-72cd-4f81-ac22-bcff658717a2)
 
 
-## Λίστα προτεινόμενου εξοπλισμού
-### Υλοποίηση με BBC:microbit
-- 2 x BBC micro:bit V2 Board Go Bundle
-- 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m)
-- 1 x Light level sensor, για παράδειγμα ο Electro-Fashion, Light Level Detector
-- 1 x οθόνη LCD, για παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit
-
-### Εναλλακτική υλοποίηση με Arduino UNO
-- 1 x Arduino UNO
-- 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m)
-- 1 x Light Sensor, για παράδειγμα TEMT6000 Light Sensor
-- 1 x οθόνη LCD, για παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit
-
-## Ενδεικτικό κόστος
-- 2 x BBC micro:bit V2 Board Go Bundle 2 x 22,50 = 50 ευρώ
-- 1 x PIR (passive infra red) sensor 3V, για παράδειγμα Grove - Digital PIR Motion Sensor(12m), κόστος 5 ευρώ
-- 1 x Light sensor, για παράδειγμα ο TEMT6000 Light Sensor, κόστος 10 ευρώ
-- 1 x οθόνη LCD, (παράδειγμα 1.8inch colorful display module for micro:bit, 160x128 ή εναλλακτικά Kitronik :VIEW text32 LCD Screen for the BBC micro bit), ενδεικτική τιμή 20 ευρώ
-- λοιπός εξοπλισμός, καλώδια, breadboard, jumper wires, crocodile cable clips, κόστος περίπου 5-10 ευρώ
-
-### Συνολικό Κόστος: 90 ευρώ περίπου
 
 ## Διάχυση
 15ο Μαθητικό Συνέδριο Πληροφορικής Κεντρικής Μακεδονίας
-
 https://pspth.edu.gr/symmetochi-tou-lykiou-pspth-sto-15o-mathitiko-synedrio-pliroforikis-kentrikis-makedonias-me-tesseris-isigisis/
-12ο Μαθητικό Φεστιβάλ Ψηφιακής Δημιουργίας
 
+12ο Μαθητικό Φεστιβάλ Ψηφιακής Δημιουργίας
 https://ira.digifest.info/2023/05/blog-post.html
 
 ## Πηγές, Σχετικά Projects
-Γιαννοπούλου, Π. (2018). Προδιαγραφές φωτισμού για κτίρια πρωτοβάθμιας και δευτεροβάθμιας εκπαίδευσης σε Μεσογειακά κλίματα. Ελληνικό Ανοιχτό Πανεπιστήμιο. https://apothesis.eap.gr/handle/repo/40540 
-
-Παλιόκας, Ι (2008), Καλλιέργεια Ενεργειακής και Περιβαλλοντικής Συνείδησης µε τη χρήση Εκπαιδευτικών Βιντεοπαιχνιδιών, 4ο Συνέδριο ΠΕΕΚΠΕ.
-http://kpe-kastor-old.kas.sch.gr/peekpe4/proceedings/synedria4/paliokas.pdf
-
-Eνεργειακή Αποδοτικότητα: ο πυρήνας του «έξυπνου» εργοστασίου
-https://industry-news.gr/energeiaki-apodotikotita-o-pyrinas-toy-exypnoy-ergostasioy/ 
-
-Arduino with PIR Motion Sensor
-https://create.arduino.cc/projecthub/diyelectronicsprojects/arduino-with-pir-motion-sensor-fd540a 
-
-Arduino - Light Sensor
-https://arduinogetstarted.com/tutorials/arduino-light-sensor 
-
-TEMT6000 Ambient Light Sensor & Arduino – Measure Illuminance & Light Intensity
-https://how2electronics.com/temt6000-ambient-light-sensor-arduino-measure-light-intensity/
-
-Physical Computing with Python
-https://projects.raspberrypi.org/en/projects/physical-computing/0 
-
-Make it: code it - PIR movement alarm
-https://microbit.org/projects/make-it-code-it/pir-movement-alarm/
-
-Make it: code it - Light alarm movement alarm
-https://microbit.org/projects/make-it-code-it/light-alarm/ 
-
-Make it: code it - Door alarm
-https://microbit.org/projects/make-it-code-it/door-alarm/
-
-Make it: code it - Light Level
-https://makecode.microbit.org/reference/input/light-level
-
-Raspberry Pi Motion Sensor using a PIR Sensor
-https://pimylifeup.com/raspberry-pi-motion-sensor/ 
-
-How to Connect a Light Sensor to the Raspberry Pi
-https://howchoo.com/pi/raspberry-pi-light-sensor
+Arduino with PIR Motion Sensor, Ανακτήθηκε από https://create.arduino.cc/projecthub/diyelectronicsprojects/arduino-with-pir-motion-sensor-fd540a 
+Arduino - Light Sensor, Ανακτήθηκε από https://arduinogetstarted.com/tutorials/arduino-light-sensor 
+Arduino (2023), Arduino Cloud, Ανακτήθηκε από https://docs.arduino.cc/arduino-cloud/ 
+Bellia, L., Pedace, A., Barbato, G. (2013). Lighting in educational environments: An example of a complete analysis of the effects of daylight and electric light on occupants, Building and Environment, Volume 68, Pages 50-65, ISSN 0360-1323, https://doi.org/10.1016/j.buildenv.2013.04.005 
+Craig, C.A., Allen, M.W. (2015). The impact of curriculum-based learning on environmental literacy and energy consumption with implications for policy. Util. Policy, 35, 41–49. 
+De Waters, J.E., Powers, S.E. (2011). Energy literacy of secondary students in New York State (USA): A measure of knowledge, affect, and behavior. Energy Policy, 39, 1699–1710.
+Kemp-Hesterman, A., Glick, S., Eileen Cross, J. (2014). Reducing electrical energy consumption through behavior changes. J. Facil. Manag., 12, 4–17.
+Pereira, L. D., Raimondo, D., Corgnati, S. P., Silva, M., G., (2014), Energy consumption in schools - A review paper, Renewable and Sustainable Energy Reviews, Volume 40, 2014, Pages 911-922, ISSN 1364-0321, https://doi.org/10.1016/j.rser.2014.08.010. 
+TEMT6000 Ambient Light Sensor & Arduino – Measure Illuminance & Light Intensity, Ανακτήθηκε από https://how2electronics.com/temt6000-ambient-light-sensor-arduino-measure-light-intensity/ 
+Γιαννοπούλου, Π. (2018). Προδιαγραφές φωτισμού για κτίρια πρωτοβάθμιας και δευτεροβάθμιας εκπαίδευσης σε Μεσογειακά κλίματα. Ελληνικό Ανοιχτό Πανεπιστήμιο. https://apothesis.eap.gr/handle/repo/40540  
+Eνεργειακή Αποδοτικότητα: ο πυρήνας του «έξυπνου» εργοστασίου, Ανακτήθηκε από  https://industry-news.gr/energeiaki-apodotikotita-o-pyrinas-toy-exypnoy-ergostasioy/    
+Παλιόκας, Ι (2008), Καλλιέργεια Ενεργειακής και Περιβαλλοντικής Συνείδησης µε τη χρήση Εκπαιδευτικών Βιντεοπαιχνιδιών, 4ο Συνέδριο ΠΕΕΚΠΕ,  http://kpe-kastor-old.kas.sch.gr/peekpe4/proceedings/synedria4/paliokas.pdf
+Πανελλήνιος Διαγωνισμός Ανοιχτών Τεχνολογιών στην Εκπαίδευση, (2023). 5ος Πανελλήνιος Διαγωνισμός Ανοιχτών Τεχνολογιών στην Εκπαίδευση, https://openedtech.ellak.gr/ 
