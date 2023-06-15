@@ -1,5 +1,14 @@
 # Ο τελευταίος να σβήσει τα φώτα
-## Σκοπός και Στόχοι
+## Αναλυτική παρουσίση του έργου
+## Με μιά ματιά...
+1. [Αναλυτική παρουσίαση του έργου](https://openedtech.ellak.gr/robotics2023/o-telefteos-na-svisi-ta-fota-piramatiko-scholio-panepistimiou-thessalonikis/?preview=true)
+3. [Βίντεο εισήγησης στο 15ο Μαθητικό Συνέδριο Πληροφορικής Κεντρικής Μακεδονίας](https://www.youtube.com/watch?v=b1FOn6rSd7Q), [Κείμενο εισήγησης](https://docs.google.com/document/d/1xauGRiTvHmHac4riz8gacWah_GG8yp0d/edit?usp=sharing&ouid=102187192160075608820&rtpof=true&sd=true), [Παρουσίαση](https://docs.google.com/presentation/d/1vN8nlSDB6mbKkkIIVLD_nDwDYGxCcHvd0TRgoYjYQI8/edit?usp=sharing)
+4. [Photo Alboom](https://photos.google.com/share/AF1QipOP64-WFxZ1iiHuxtSMB_zP1DT6Kyw5N6apeZyJ-W_iewMt2TZZQ6Nan7Ozl_tMxQ?key=QlJhaEFqNmFIa3p3b3E3VFUzWGNuMXVObUFwQjZ3)
+5. [Teaser Video - "Τα φώτα με την ματιά των νηπίων του ΠΣΠΘ"](https://youtu.be/sXFGMevzf-c)
+6. [Αφισάκι](https://drive.google.com/file/d/1toCfQZ5VtJQO7nFd7wl_34QZRfDQhFS4/view?usp=sharing)
+7. [Κώδικας του έργου (Vesrion 0.6)]
+
+##Σκοπός και Στόχοι
 Σκοπός του εκπαιδευτικού προγράμματος “Ο τελευταίος να σβήσει τα φώτα” είναι η καλλιέργεια ενεργειακής και περιβαλλοντικής συνείδησης καθώς και των κατάλληλων στάσεων απέναντι στην ενεργειακή οικονομία, ικανών να μεταβάλλουν μελλοντικές συμπεριφορές. Απώτερος σκοπός του προγράμματος είναι η προώθηση μιας ενεργειακά αποδοτικής κουλτούρας τόσο στα μέλη της εκπαιδευτικής κοινότητας (μαθητές, εκπαιδευτικούς, γονείς) όσο και στην ευρύτερη (τοπική) κοινωνία.
 
 Επιμέρους στόχοι του εκπαιδευτικού προγράμματος είναι οι εμπλεκόμενοι μαθητές/τριες 
